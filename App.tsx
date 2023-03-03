@@ -42,6 +42,7 @@ function Section({children, title}: SectionProps): JSX.Element {
         ]}>
         {title}
       </Text>
+      <Text>This is Noah's Text</Text>
       <Text
         style={[
           styles.sectionDescription,
